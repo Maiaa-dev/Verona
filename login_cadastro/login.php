@@ -14,15 +14,16 @@
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
             $_SESSION['id'] = $usuario['id_usuario'];
+            $_SESSION['nome'] = $usuario['nome'];
             $_SESSION['sobrenome'] = $usuario['sobrenome'];
             $_SESSION['data_nasc'] = $usuario['data_nasc'];
             $_SESSION['cpf'] = $usuario['cpf'];
             $_SESSION['telefone'] = $usuario['telefone'];
-            header("Location: ../menu/index.php");
+            header("Location: ../inicio/index.php");
             exit;
         }
     else{
-        echo '<script>alert("Email ou senha incorretos. Tente novamente!");window.location.href = "index.html";</script>';
+        echo '<script>alert("Email ou senha incorretos. Tente novamente!");window.location.href = "index.php";</script>';
         exit;
     }
 ?>
