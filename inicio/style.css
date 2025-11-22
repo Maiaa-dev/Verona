@@ -158,3 +158,26 @@ html{
     color: #a15300;
 }
 
+#perguntas{
+    background-color: #143601;
+}
+
+.accordion{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.accordion-body{
+    font-family: 'DM Sans',sans-serif;
+}
+
+#tx4{
+    color: white;
+    font-family: 'Instrument Serif',sans-serif;
+    text-align: center;
+    padding: 1%;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: 45%;
+    margin-right: 45%;
+}
