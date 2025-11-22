@@ -4,6 +4,8 @@
 /*Font: Poppins*/
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /*Font: Homemade Apple*/
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+/*Font: Instrument Serif*/
 
 *{
     margin: 0;
@@ -15,6 +17,8 @@
 
 html{
     background-color: #5b1313;
+    overflow-x: hidden;
+    padding: 0;
 }
 
 #logop{
@@ -53,7 +57,104 @@ html{
     margin-top: 30px; /* ajuste fino: pode ser 60, 70, 90... */
 }
 
+#logover{
+    width: 150px;
+    height: 90px;
+}
 
+.principal{
+    margin-top: 4%;
+    display: flex;
+}
 
+.esquerda,.direita{
+    flex: 1;            
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 2%;
+}
 
+.sobre{
+    background-image: url(../imagens/vitrine.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#tx1{
+    font-family: 'Instrument Serif',sans-serif;
+    color: #5b1313;
+    font-weight: bold;
+}
+
+#p1{
+    font-family: 'DM Sans',sans-serif;
+    text-align: left;
+    color: #784444;
+}
+
+#cardapio{
+    background-color: #2E0706;
+}
+
+.acao{
+    background-color: #B46512;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid #B46512;
+    border-radius: 20px;
+}
+
+.cards{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.card-title,.card-text{
+    font-family: 'DM Sans',sans-serif;
+    color: #600b08;
+}
+
+#tx2{
+    color: #e58c2d;
+    font-family: 'Instrument Serif',sans-serif;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+#p2{
+    font-size: 20px;
+}
+
+#botao{
+    padding: 5%;
+    background-color: #a15300;
+    color: white;
+    font-family: 'DM Sans',sans-serif;
+    border: 2px solid #a15300;
+    border-radius: 40px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+#botao:hover{
+    background-color: white;
+    color: #a15300;
+    border-color: #a15300;
+    transition: 0.5s;
+}
+
+#abotao{
+    color: white;
+    text-decoration: none;
+}
+
+#abotao:hover{
+    color: #a15300;
+}
 

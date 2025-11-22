@@ -31,16 +31,19 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item me-4">
-                    <a class="nav-link active text-white FonteLink" aria-current="page" href="#">Início</a>
+                    <a class="nav-link active text-white FonteLink" aria-current="page" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item me-4">
+                    <a class="nav-link text-white FonteLink" href="#">Sobre</a>
                     </li>
                     <li class="nav-item me-4">
                     <a class="nav-link text-white FonteLink" href="#">Cardápio</a>
                     </li>
                     <li class="nav-item me-4">
-                    <a class="nav-link text-white FonteLink" href="#">Fazer pedido</a>
+                    <a class="nav-link text-white FonteLink" href="#">Novidade da semana</a>
                     </li>
                     <li class="nav-item me-5">
-                    <a class="nav-link text-white FonteLink" href="#">Meus pedidos</a>
+                    <a class="nav-link text-white FonteLink" href="#">FAQ</a>
                     </li>
                     <li class="nav-item dropdown me-5">
                     <a class="nav-link dropdown-toggle text-white FonteLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -56,7 +59,8 @@
             </div>
         </nav>
 
-        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+        <div id="inicio">
+            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                 <img src="../imagens/slide1.png" class="d-block w-100" alt="...">
@@ -77,6 +81,93 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+
+        <div id="sobre">
+            <div class="principal">
+                <div class="esquerda">
+                    <h1 id="tx1">Verona - A elegância italiana em pleno palco carioca</h1><br>
+                    <p id="p1">O Verona nasceu para trazer a tradição das cafeterias italianas a um novo cenário: o palco carioca. Aqui, cada detalhe — da intensidade do espresso ao brilho das cortinas vermelhas — foi pensado para transformar o café em uma verdadeira apresentação.
+                        Com rigor, sofisticação e um ambiente que convida a desacelerar, nossas bebidas são preparadas para oferecer mais do que sabor: oferecem experiência.
+                        No Verona, o café deixa de ser rotina e se torna espetáculo.
+                        Descubra a elegância italiana interpretada no coração do Rio de Janeiro.</p>
+                        <hr>
+                    <img src="../imagens/logo3.png" alt="logo Verona" id="logover">
+                </div>
+                <div class="direita sobre"></div>
+            </div>
+            
+        </div>
+
+        <div id="cardapio">
+            <h1 id="tx2">Cardápio</h1>
+            <div id="acao">
+                <!--Parte do botão - call to action" (CTA)-->
+                <div class="principal acao">
+                    <div class="esquerda"><p id="p2" class="FonteLink text-white">Já escolheu o seu?</p></div>
+                    <div class="direita">
+                        <button type="button" id="botao"><a href="#fpedido" id="abotao">Fazer pedido!</a></button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row row-cols-1 row-cols-md-3 g-4 cards">
+                <div class="col">
+                    <div class="card">
+                    <img src="../imagens/espresso.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Espresso Verona</h5>
+                        <p class="card-text">Intenso e aromático, preparado com grãos selecionados para um sabor marcante.</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                    <img src="../imagens/cappuccino.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cappuccino Cremoso</h5>
+                        <p class="card-text">Clássico e aconchegante, com leite vaporizado e espuma no ponto perfeito.</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                    <img src="../imagens/matcha.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Matcha Latte Gelado</h5>
+                        <p class="card-text">Leve e refrescante, com matcha suave batido no leite gelado para energia instantânea.</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                    <img src="../imagens/caramelo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Iced Latte Caramelo</h5>
+                        <p class="card-text">Café suave com leite gelado e um toque de caramelo que refresca e adoça na medida.</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                    <img src="../imagens/tiramissu.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tiramissu da Casa</h5>
+                        <p class="card-text">Clássico italiano com textura macia e sabor delicadamente adocicado.</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                    <img src="../imagens/martini.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Espresso Martini Verona</h5>
+                        <p class="card-text">Vodka, licor de café e espresso — forte, elegante e irresistível.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
