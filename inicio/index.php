@@ -22,7 +22,7 @@
   </head>
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #74070E;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-blur fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="../imagens/logo1.png" id="logop"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
