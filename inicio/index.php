@@ -34,25 +34,16 @@
                     <a class="nav-link active text-white FonteLink" aria-current="page" href="#inicio">Início</a>
                     </li>
                     <li class="nav-item me-4">
-                    <a class="nav-link text-white FonteLink" href="#">Sobre</a>
+                    <a class="nav-link text-white FonteLink" href="#sobre">Sobre</a>
                     </li>
                     <li class="nav-item me-4">
-                    <a class="nav-link text-white FonteLink" href="#">Cardápio</a>
-                    </li>
-                    <li class="nav-item me-4">
-                    <a class="nav-link text-white FonteLink" href="#">Novidade da semana</a>
+                    <a class="nav-link text-white FonteLink" href="#cardapio">Cardápio</a>
                     </li>
                     <li class="nav-item me-5">
-                    <a class="nav-link text-white FonteLink" href="#">FAQ</a>
+                    <a class="nav-link text-white FonteLink" href="#perguntas">FAQ</a>
                     </li>
-                    <li class="nav-item dropdown me-5">
-                    <a class="nav-link dropdown-toggle text-white FonteLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <?php echo "Olá, $nome!"?>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Meu perfil</a></li>
-                        <li><a class="dropdown-item" href="../login_cadastro/index.php">Sair</a></li>
-                    </ul>
+                    <li class="nav-item me-5">
+                    <a class="nav-link text-white FonteLink" href="#news">Newsletter</a>
                     </li>
                 </ul>
                 </div>
@@ -60,7 +51,7 @@
         </nav>
 
         <div id="inicio">
-            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+            <div id="meuCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                 <img src="../imagens/slide1.png" class="d-block w-100" alt="...">
@@ -299,7 +290,7 @@
                     </h2>
                     <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>É só acompanhar nossas redes sociais para receber lançamentos e promoções.</strong>
+                        <strong>É só acompanhar nossas redes sociais  e se inscrever na nossa newsletter para receber lançamentos e promoções.</strong>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-vibrate" viewBox="0 0 16 16">
                             <path d="M10 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM6 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path>
                             <path d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2M1.599 4.058a.5.5 0 0 1 .208.676A7 7 0 0 0 1 8c0 1.18.292 2.292.807 3.266a.5.5 0 0 1-.884.468A8 8 0 0 1 0 8c0-1.347.334-2.619.923-3.734a.5.5 0 0 1 .676-.208m12.802 0a.5.5 0 0 1 .676.208A8 8 0 0 1 16 8a8 8 0 0 1-.923 3.734.5.5 0 0 1-.884-.468A7 7 0 0 0 15 8c0-1.18-.292-2.292-.807-3.266a.5.5 0 0 1 .208-.676M3.057 5.534a.5.5 0 0 1 .284.648A5 5 0 0 0 3 8c0 .642.12 1.255.34 1.818a.5.5 0 1 1-.93.364A6 6 0 0 1 2 8c0-.769.145-1.505.41-2.182a.5.5 0 0 1 .647-.284m9.886 0a.5.5 0 0 1 .648.284C13.855 6.495 14 7.231 14 8s-.145 1.505-.41 2.182a.5.5 0 0 1-.93-.364C12.88 9.255 13 8.642 13 8s-.12-1.255-.34-1.818a.5.5 0 0 1 .283-.648"></path>
@@ -309,6 +300,33 @@
                 </div>
             </div>
             <br>
+        </div>
+
+        <div id="news">
+            <br><br>
+            <h1 id="tx5">Newsletter
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#600b08" class="bi bi-newspaper" viewBox="0 0 16 16">
+                <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5z"></path>
+                <path d="M2 3h10v2H2zm0 3h4v3H2zm0 4h4v1H2zm0 2h4v1H2zm5-6h2v1H7zm3 0h2v1h-2zM7 8h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2z"></path>
+            </svg></h1>
+            <p id="p5">Inscreva-se em nossa newsletter para receber cupons exclusivos!</p>
+            <form class="col-md-6 mx-auto px-3" action="cadastro.php" method="post">
+                    <div class=" mb-3">
+                        <label for="InputNome" class="form-label FonteLink fonteInput">Nome</label>
+                        <input type="text" class="form-control" id="InputNome" name="nome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="InputSobren" class="form-label FonteLink">Sobrenome</label>
+                        <input type="text" class="form-control" id="InputSobren" name="sobrenome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="InputEmail" class="form-label FonteLink">Email</label>
+                        <input type="email" class="form-control" id="InputEmail" placeholder="Digite com '@'" name="email">
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn text-white botao" style="font-family: 'Poppins',sans-serif;">Inscrever</button>
+                    </div><br>
+            </form>
         </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
