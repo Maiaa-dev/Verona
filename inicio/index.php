@@ -7,7 +7,7 @@
         exit;
     }
     else{
-        $nome = $_SESSION['nome'];
+        //$nome = $_SESSION['nome'];
     }
 ?>
 

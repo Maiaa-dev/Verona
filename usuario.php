@@ -1,11 +1,11 @@
 <?php 
     include_once('../conexao.php');
     $_SESSION['email']; 
-    $_SESSION['senha'];
+    //$_SESSION['senha'];
     $_SESSION['nome'];
-    $_SESSION['sobrenome'];
-    $_SESSION['data_nasc'];
-    $_SESSION['cpf'];
-    $_SESSION['telefone'];
+    //$_SESSION['sobrenome'];
+    //$_SESSION['data_nasc'];
+    //$_SESSION['cpf'];
+    //$_SESSION['telefone'];
     $_SESSION['id'];
 ?>
