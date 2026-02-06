@@ -1,16 +1,3 @@
-<?php 
-    session_start();
-    include_once('../conexao.php');
-    include_once('../usuario.php');
-    if (!isset ($_SESSION['email'])){
-        header("Location: ../login_cadastro/index.php");
-        exit;
-    }
-    else{
-        //$nome = $_SESSION['nome'];
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
