@@ -33,7 +33,7 @@
 1. Baixe ou clone o repositório
 2. Copie a pasta do projeto para dentro do diretório `htdocs` do XAMPP:
 ```
-C:\xampp\htdocs\verona
+C:\xampp\htdocs\Verona
 ```
 3. Inicie o **XAMPP Control Panel** e ligue:
 - Apache
